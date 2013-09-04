@@ -1,75 +1,300 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Data2Semantics by Data2Semantics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="shortcut icon" href="../../assets/ico/favicon.png">-->
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Data@semantics Code Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+      
+    <!-- Custom style for D2S Code Project-->
+    <link href="css/styles.css" rel="stylesheet">
   </head>
+<!-- NAVBAR
+================================================== -->
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Data2Semantics</h1>
-        <p>Data2Semantics tools website</p>
+    <div class="navbar-wrapper">
+      <div class="container">
 
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Data2Semantics</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="http://github.com/Data2Semantics">GitHub</a></li>
+                <li><a href="http://twitter.com/Data2Semantics">Twitter</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-        <p class="view"><a href="https://github.com/Data2Semantics">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-36060503-5");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
 
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">-->
+          <!--<img src="img/data2semantics-carousel-1.png" style="width: 1352px; height: 250px; position: relative; top: 125px; left: auto;" alt="Linkitup">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <!--<h1>Data2Semantics</h1>-->
+              <!-- Image width is :1130px -->
+              <img src="img/data2semantics-carousel-1.png" style="margin-left: -20%; vertical-align: middle; text-align: center;" >
+              <p>Data2Semantics aims to provide essential semantic infrastructure for bringing e-Science to the next level.</p>
+              <p><a class="btn btn-large btn-primary" href="http://www.data2semantics.org/about">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <!--<h1>Another example headline.</h1>-->
+              <img src="img/linkitup-carousel-2.png" style="max-width: 140%; margin-left: -10%;">
+              <p>Linkitup taps into your favourite research data repository, and enriches your datasets with links to vocabularies, registries and the Linked Data cloud</p>
+              <p><a class="btn btn-large btn-primary" href="#linkitup">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 style="font-family: Audiowide;">YASGUI</h1>
+              <h2>Not just yet another SPARQL GUI</h2>
+              <p>YASGUI supports syntax highlighting &amp; checking, SPARQL endpoint &amp; namespace prefix autocompletion, and query persistence.</p>
+              <p><a class="btn btn-large btn-primary" href="#yasgui">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Virgil</h1>
+              <h2>Pharmacovigilance made easy!</h2>
+              <p>Virgil is a step-by-step wizard to compute disproportionality measurements for adverse events of drugs. It uses the open data from the <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/default.htm">FDA Adverse Event Reporting System</a></p>
+              <p><a class="btn btn-large btn-primary" href="#virgil">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background: white;">
+          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <!--<h1>SynerScope</h1>-->
+              <img src="img/synerscope.png" style="height: 300px;">
+              <p style="color: #333;">Sophisticated software for presenting massive amounts of data in an intuitive way. </p>
+              <p><a class="btn btn-large btn-primary" href="http://www.synerscope.com">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <!-- <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
+          <img src="img/COMMIT-valorization-award-2013.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>COMMIT/ Valorization Award</h1>
+              <p>During the COMMIT/ Community event, April 2-3 in Lunteren, the Data2Semantics team won one out of three COMMIT/ Valorization awards.</p>
+              <p><a class="btn btn-large btn-primary" href="http://www.data2semantics.org/2013/04/09/data2semantics-wins-commit-valorization-award/">Read post</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="imgholder"><img src="img/linkitup-logo-150dpi.png" style="max-width: 100%; max-height: 140px;"></div>
+          <!--<h2>Linkitup</h2>-->
+          <p>Linkitup taps into your favourite research data repository, and enriches your datasets with links to vocabularies, registries and the Linked Data cloud</p>
+          <p><a class="btn btn-default" href="#linkitup">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><h1 style="padding-top: 5px; font-family: Audiowide;">YASGUI</h1></div>
+          <p  style="margin-top: -1.5em">YASGUI is a feature packed web-based SPARQL client interface</p>
+          <p><a class="btn btn-default" href="#yasgui">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><h1>Virgil</h1></div>
+          <p style="margin-top: -1.5em">Virgil is a step-by-step wizard to compute disproportionality measurements for adverse events of drugs. It uses the open data from the <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/default.htm">FDA Adverse Event Reporting System</a></p>
+          <p><a class="btn btn-default" href="#virgil">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="imgholder"><img src="img/provoviz.png" style="max-width: 70%; padding-top: 20px; max-height: 140px;"></div>
+          <!--<h2>Linkitup</h2>-->
+          <p>PROV-O-Viz is a <a href="http://d3js.org">D3.js</a>-based web service for visualizing PROV-O provenance trails as Sankey diagrams</p>
+          <p><a class="btn btn-default" href="#provoviz">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><h1 style="font-family: 'Open Sans Condensed'; font-weight: 300;">PLSheet</h1></div>
+          <p style="margin-top: -1.5em">PLSheet is a <a href="http://www.swi-prolog.org">SWI Prolog based</a> spreadsheet dependency analysis toolkit + converter to RDF.</p>
+          <p><a class="btn btn-default" href="#plsheet">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><h1 style="font-family: 'Anaheim'; font-weight: 400;">RecoPROV</h1></div>
+          <p style="margin-top: -1.5em">RecoPROV reconstructs provenance information from collections of documents</p>
+          <p><a class="btn btn-default" href="#recoprov">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><img src="img/vivo-web-large-v2.png" style="max-width: 100%; max-height: 140px;"></div>
+          <p  style="margin-top: -1.5em">We're building a <strong>lightweight browser</strong> for Linked Data data exposed through the <a href="http://vivoweb.org/">VIVO</a> ontology.</p>
+          <p><a class="btn btn-default" href="#vivobrowser">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><img src="img/tablinker-logo-150dpi.png" style="max-width: 100%; max-height: 140px;"></div>
+          <p style="margin-top: -1.5em">TabLinker is experimental software for converting annotated, eccentric spreadsheets to the <a href="http://www.w3.org/TR/vocab-data-cube/">RDF Data Cube vocabulary</a>.</p>
+          <p><a class="btn btn-default" href="#tablinker">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-2"></div>
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="linkitup">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Linkitup <span class="text-muted">Publish and enrich Research Data</span></h2>
+          <p class="lead">Linkitup connects to your Figshare account and analyses your (meta)data to propose links to a wide variety of vocabularies and datasets. Linkitup already links to Wikipedia, DBPedia, DBLP, Crossref DOI's, ORCID, and many more.</p>
+          <p><a class="btn btn-default" target="_new" href="http://linkitup.data2semantics.org">Try it out &raquo;</a> <a class="btn btn-primary" href="https://github.com/Data2Semantics/linkitup" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" style="vertical-align: middle;" src="img/linkitup-screen.png">
+          <!--<img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="yasgui">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" style="vertical-align: middle;" src="img/yasgui-screen.png">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">YASGUI <span class="text-muted">Not just another SPARQL GUI</span></h2>
+          <p class="lead">YASGUI is a feature packed web-based SPARQL client interface that supports syntax highlighting and checking, accessing <em>all</em> endpoints, prefix autocompletion, endpoint search and autocompletion, permalinks, persistent application states, query bookmarking, result browsing and configurable requests.</p>
+          <p><a class="btn btn-default" target="_new" href="http://yasgui.data2semantics.org">Try it out &raquo;</a> <a class="btn btn-info" target="_new" href="http://laurensrietveld.nl/yasgui/">More information &raquo;</a> <a class="btn btn-primary" href="https://github.com/LaurensRietveld/yasgui" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Virgil <span class="text-muted">Pharmacovigilance made easy!</span></h2>
+          <p class="lead">Virgil is a step-by-step wizard to compute disproportionality measurements for adverse events of drugs. It uses the open data from the <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/default.htm">FDA Adverse Event Reporting System (FAERS).</a></p>
+          <p class="lead">We also host a <strong>Linked Data</strong> version of the FAERS repository, called <a href="http://aers.data2semantics.org/">AERS-LD</a></p>
+          <p><a class="btn btn-default" target="_new" href="http://sealincmedia.project.cwi.nl/d2s/virgil">Try it out &raquo;</a> <a class="btn btn-info" target="_new" href="http://aers.data2semantics.org">AERS-LD &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" style="vertical-align: middle;" src="img/virgil-screen.png">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script>
+      $("a[href^='#']").on('click', function(e) {
+          e.preventDefault();
+          $('html, body').animate({ scrollTop: $(this.hash).offset().top }, 300);
+       
+          // edit: Opera and IE requires the "html" elm. animated
+      });
+      
+    </script>
   </body>
 </html>

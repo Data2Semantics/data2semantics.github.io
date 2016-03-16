@@ -20,16 +20,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
-      
+
     <!-- Custom style for D2S Code Project-->
     <link href="css/styles.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-	<div id="commit" style="position: fixed; bottom: 42px; left:44.5px; z-index: 1000;">
+	<!-- <div id="commit" style="position: fixed; bottom: 42px; left:44.5px; z-index: 1000;">
 		<img height="50px" src="img/logo-no-text-150dpi.png"/><a href="http://www.commit-nl.nl"><img height="50px" src="img/COMMIT_logo_subtitle_small_RGB.png"></a>
-	</div>
+	</div> -->
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -46,10 +46,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
-                <li><a href="http://www.data2semantics.org/about">About</a></li>
-                <li><a href="http://www.data2semantics.org/blog">Blog</a></li>
-                <li><a href="http://www.data2semantics.org/people">People</a></li>
-                <li><a href="http://www.data2semantics.org/publications">Publications</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="http://github.com/Data2Semantics">GitHub</a></li>
                 <li><a href="http://twitter.com/Data2Semantics">Twitter</a></li>
 				<li><a href="http://www.commit-nl.nl/">COMMIT/</a></li>
@@ -81,16 +78,16 @@
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <!-- <li data-target="#myCarousel" data-slide-to="0" class="active"></li> -->
+        <!-- <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
         <li data-target="#myCarousel" data-slide-to="4"></li>
         <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li> -->
+        <!-- <li data-target="#myCarousel" data-slide-to="7"></li> -->
       </ol>
-		
+
       <div class="carousel-inner">
         <div class="item active">
           <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">-->
@@ -101,16 +98,14 @@
               <!-- Image width is :1130px -->
               <img src="img/data2semantics-carousel-1.png" style="margin-left: -20%; vertical-align: middle; text-align: center;" >
               <p>Data2Semantics provides essential semantic infrastructure for bringing e-Science to the next level. We are part of COMMIT/.</p>
-              <p><a class="btn btn-large btn-primary" href="http://www.data2semantics.org/about">Learn More</a>&nbsp;<a class="btn btn-large btn-default" href="http://www.commit-nl.nl">COMMIT/</a></p>
+              <p><a class="btn btn-large btn-primary" href="#about">Learn More</a>&nbsp;<a class="btn btn-large btn-default" href="http://www.commit-nl.nl">COMMIT/</a></p>
             </div>
           </div>
         </div>
-        <div class="item">
+        <!-- <div class="item">
           <img src="img/shiny_gold.jpg">
-          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">-->
           <div class="container">
             <div class="carousel-caption">
-              <!--<h1>Another example headline.</h1>-->
               <h1 class="golden">Golden Demo</h1>
               <p>Analysis, Provenance, Visualization, Publication<br/>On the fly</p>
               <p><a class="btn btn-large btn-primary" href="#goldendemo">Learn more</a></p>
@@ -118,10 +113,8 @@
           </div>
         </div>
         <div class="item">
-          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">-->
           <div class="container">
             <div class="carousel-caption">
-              <!--<h1>Another example headline.</h1>-->
               <img src="img/linkitup-carousel-2.png" style="max-width: 140%; margin-left: -10%;">
               <p>Linkitup taps into your favourite research data repository, and enriches your datasets with links to vocabularies, registries and the Linked Data cloud</p>
               <p><a class="btn btn-large btn-primary" href="#linkitup">Learn more</a></p>
@@ -129,7 +122,6 @@
           </div>
         </div>
         <div class="item">
-          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
           <div class="container">
             <div class="carousel-caption">
               <h1 style="font-family: Audiowide;">YASGUI</h1>
@@ -140,7 +132,6 @@
           </div>
         </div>
         <div class="item">
-          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
           <div class="container">
             <div class="carousel-caption">
               <h1>Virgil</h1>
@@ -151,18 +142,15 @@
           </div>
         </div>
         <div class="item" style="background: white;">
-          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
           <div class="container">
             <div class="carousel-caption">
-              <!--<h1>SynerScope</h1>-->
               <img src="img/synerscope.png" style="height: 300px;">
               <p style="color: #333;">Sophisticated software for presenting massive amounts of data in an intuitive way. </p>
               <p><a class="btn btn-large btn-primary" href="http://www.synerscope.com">Learn more</a></p>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <!-- <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
+        </div> -->
+        <!-- <div class="item">
           <img src="img/COMMIT-valorization-award-2013.JPG">
           <div class="container">
             <div class="carousel-caption">
@@ -171,10 +159,10 @@
               <p><a class="btn btn-large btn-primary" href="http://www.data2semantics.org/2013/04/09/data2semantics-wins-commit-valorization-award/">Read post</a></p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> -->
     </div><!-- /.carousel -->
 
 
@@ -188,32 +176,57 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
+          <div class="imgholder"><img src="img/laundry.png" style="max-width: 100%; max-height: 140px;"></div>
+          <!--<h2>Linkitup</h2>-->
+          <p>The LOD Laundromat provides access to all Linked Open Data (LOD) in the world. It does this by crawling the LOD cloud, and converting all its contents in a standards-compliant way (gzipped N-Triples), removing all data stains such as syntax errors, duplicates, and blank nodes.</p>
+          <p><a class="btn btn-default" href="http://lodlaundromat.org">Visit &raquo;</a> <a class="btn btn-primary" href="https://github.com/LOD-Laundromat" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><h1 style="padding-top: 5px; font-family: Inconsolata, typewriter;">frank</h1></div>
+          <p  style="margin-top: -1.5em">A bash interface to the LOD Laundromat, allowing for large scale reproducible web science research on the Web of Data: the <a href="http://lodlaundromat.org/lodlab">LOD Lab</a>.</p>
+          <p><a class="btn btn-primary" href="https://github.com/LOD-Laundromat/Frank" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><h1 style="font-family: helvetica, arial; font-weight: bold;"><img src="img/swish-logo.png"/>SWISH</h1></div>
+          <p style="margin-top: -1.5em">The current SWISH application targets primarily at collaborative exploration of data. SWISH can be combined with e.g., CQL to explore relational (SQL) databases or sparkle to explore linked data. A ClioPatria plugin adds Prolog based exploration of RDF data to ClioPatria.</p>
+          <p><a class="btn btn-default" href="http://swish.swi-prolog.org">Visit &raquo;</a> <a class="btn btn-primary" href="https://github.com/SWI-Prolog/swish" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
           <div class="imgholder"><img src="img/linkitup-logo-150dpi.png" style="max-width: 100%; max-height: 140px;"></div>
           <!--<h2>Linkitup</h2>-->
           <p>Linkitup taps into your favourite research data repository, and enriches your datasets with links to vocabularies, registries and the Linked Data cloud</p>
-          <p><a class="btn btn-default" href="#linkitup">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="http://linkitup.data2semantics.org">Try it out &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
           <div class="imgholder"><h1 style="padding-top: 5px; font-family: Audiowide;">YASGUI</h1></div>
-          <p  style="margin-top: -1.5em">YASGUI is a feature packed web-based SPARQL client interface</p>
-          <p><a class="btn btn-default" href="#yasgui">View details &raquo;</a></p>
+          <p  style="margin-top: -1.5em">YASGUI is a feature packed, lightweight, web-based SPARQL client interface</p>
+          <p><a class="btn btn-default" href="http://yasgui.org">Try it out &raquo;</a> <a class="btn btn-default" href="http://doc.yasgui.org">Details &raquo;</a> <a class="btn btn-primary" href="https://github.com/OpenTriply/YASGUI" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
-          <div class="imgholder"><h1>Virgil</h1></div>
-          <p style="margin-top: -1.5em">Virgil is a step-by-step wizard to compute disproportionality measurements for adverse events of drugs. It uses the open data from the <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/default.htm">FDA Adverse Event Reporting System</a></p>
-          <p><a class="btn btn-default" href="#virgil">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
         <div class="col-lg-4">
           <div class="imgholder"><img src="img/provoviz.png" style="max-width: 70%; padding-top: 20px; max-height: 140px;"></div>
           <!--<h2>Linkitup</h2>-->
           <p>PROV-O-Viz is a <a href="http://d3js.org">D3.js</a>-based web service for visualizing PROV-O provenance trails as Sankey diagrams</p>
-          <p><!--<a class="btn btn-default" href="#provoviz">View details &raquo;</a>--> <a class="btn btn-primary" href="https://github.com/Data2Semantics/provoviz" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
+          <p><a class="btn btn-default" href="http://provoviz.org">Visit &raquo;</a> <a class="btn btn-primary" href="https://github.com/Data2Semantics/provoviz" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
+          <div class="imgholder"><h1>Virgil</h1></div>
+          <p style="margin-top: -1.5em">Virgil is a step-by-step wizard to compute disproportionality measurements for adverse events of drugs. It uses the open data from the <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/default.htm">FDA Adverse Event Reporting System</a></p>
+
+          <p><a class="btn btn-primary" href="https://github.com/michielhildebrand/virgil" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
@@ -228,16 +241,16 @@
           <p><!--<a class="btn btn-default" href="#recoprov">View details &raquo;</a>--><a class="btn btn-primary" href="https://bitbucket.org/saramagliacane/recoprov/" target="_blank">Bitbucket&nbsp;<img style="height: 18px;" src="img/bit-bucket.png"></a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-      
-      
+
+
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-2"></div>
         <div class="col-lg-4">
           <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
-          <div class="imgholder"><img src="img/vivo-web-large-v2.png" style="max-width: 100%; max-height: 140px;"></div>
-          <p  style="margin-top: -1.5em">We're building a <strong>lightweight browser</strong> for Linked Data data exposed through the <a href="http://vivoweb.org/">VIVO</a> ontology.</p>
-          <p><!--<a class="btn btn-default" href="#vivobrowser">View details &raquo;</a>--> <a class="btn btn-primary" href="https://github.com/Data2Semantics/VIVO-Browser" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
+          <div class="imgholder"><h1 style="font-family: Inconsolata;">brwsr</h1></div>
+          <p  style="margin-top: -1.5em">The <span style='font-family: Inconsolata;'>brwsr</a> tool is a lightweight browser for Linked Data, much akin to Pubby, but more lightweight and configurable..</p>
+          <p><!--<a class="btn btn-default" href="#vivobrowser">View details &raquo;</a>--> <a class="btn btn-primary" href="https://github.com/Data2Semantics/brwsr" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
@@ -249,76 +262,62 @@
       </div><!-- /.row -->
 
 
-      <!-- START THE FEATURETTES -->
+      <div class="row">
+        <div class="col-lg-10">
+          <h2 id="about" class='page-header'>About</h2>
+		<p>Data2Semantics aims to provide essential semantic infrastructure for bringing <a class="zem_slink" title="E-Science" href="http://en.wikipedia.org/wiki/E-Science" rel="wikipedia">e-Science</a> to the next level.</p>
 
-      <hr class="featurette-divider">
+<p>A core task for scientific publishers is to speed up <a class="zem_slink" title="Scientific progress" href="http://en.wikipedia.org/wiki/Scientific_progress" rel="wikipedia">scientific progress</a> by improving the availability of <a class="zem_slink" title="Science" href="http://en.wikipedia.org/wiki/Science" rel="wikipedia">scientific knowledge</a>. This holds both for dissemination of results through traditional publications, as well as through the publication of <a class="zem_slink" title="Data" href="http://en.wikipedia.org/wiki/Data" rel="wikipedia">scientific data</a>. The Data2Semantics project focuses on a key problem for data management in e-Science:</p>
 
-      <div class="row featurette" id="goldendemo">
-        <div class="col-md-5">
-          <iframe width="480" height="360" src="http://www.youtube.com/embed/EGpcHPz1VBw?rel=0" frameborder="0" allowfullscreen></iframe>
-          <!--<img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading golden">Golden Demo <span class="text-muted">Analysis, Provenance, Visualization, Publication. On the Fly</span></h2>
-          <p class="lead">The Data2Semantics golden demo demonstrates <strong>on the fly</strong> (spreadsheet) complexity analysis, provenance reconstruction, visualization, enrichment and publication of research data directly from <a href="http://dropbox.com">Dropbox</a> to <a href="http://figshare.com">Figshare</a>.</p>
-          <!--<p><a class="btn btn-default" target="_new" href="http://linkitup.data2semantics.org">Try it out &raquo;</a> <a class="btn btn-primary" href="https://github.com/Data2Semantics/linkitup" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>-->
-        </div>
-      </div>
-      
-      <hr class="featurette-divider">
+<div class="alert alert-info"><em>How to <strong>share</strong>, <strong>publish</strong>, <strong>access</strong>, <strong>analyse</strong>, <strong>interpret </strong>and<strong> reuse</strong> data?</em></div>
 
-      <div class="row featurette" id="linkitup">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Linkitup <span class="text-muted">Publish and enrich Research Data</span></h2>
-          <p class="lead">Linkitup connects to your Figshare account and analyses your (meta)data to propose links to a wide variety of vocabularies and datasets. Linkitup already links to Wikipedia, DBPedia, DBLP, Crossref DOI's, ORCID, and many more.</p>
-          <p><a class="btn btn-default" target="_new" href="http://linkitup.data2semantics.org">Try it out &raquo;</a> <a class="btn btn-primary" href="https://github.com/Data2Semantics/linkitup" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" style="vertical-align: middle;" src="img/linkitup-screen.png">
-          <!--<img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
-        </div>
-      </div>
+<p>Data2Semantics is a collaboration between the <a class="zem_slink" title="Vrije Universiteit" href="http://www.vu.nl/" rel="homepage">VU University Amsterdam</a>, the <a class="zem_slink" title="University of Amsterdam" href="http://www.uva.nl" rel="homepage">University of Amsterdam</a>, <a title="DANS" href="http://www.dans.knaw.nl/">Data Archiving and Networked Services (DANS)</a> of the <a class="zem_slink" title="Royal Netherlands Academy of Arts and Sciences" href="http://en.wikipedia.org/wiki/Royal_Netherlands_Academy_of_Arts_and_Sciences" rel="wikipedia">KNAW</a>, <a href="http://www.elsevier.com">Elsevier Publishing</a> and <a href="http://www.synerscope.com">Synerscope</a>, and&nbsp;is funded under the <a href="http://www.commit-nl.nl">COMMIT</a> programme of the <a title="Agentschap NL" href="http://www.agentschapnl.nl/en">NL Agency of the Dutch Ministry of Economic Affairs, Agriculture and Innovation</a>.</p>
 
-      <hr class="featurette-divider">
+<p>The discovery of new knowledge is the heart of scientific progress; the generation, support and maintenance of knowledge form the foundation of the scientific endeavour. e-Science is ultimately about discovering and sharing knowledge in the form of experimental <strong>data</strong>, theory-rich <strong>vocabularies</strong>, <strong>publications</strong> and re-usable <strong>services</strong> that are meaningful to the working scientist.</p>
 
-      <div class="row featurette" id="yasgui">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" style="vertical-align: middle;" src="img/yasgui-screen.png">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">YASGUI <span class="text-muted">Not just another SPARQL GUI</span></h2>
-          <p class="lead">YASGUI is a feature packed web-based SPARQL client interface that supports syntax highlighting and checking, accessing <em>all</em> endpoints, prefix autocompletion, endpoint search and autocompletion, permalinks, persistent application states, query bookmarking, result browsing and configurable requests.</p>
-          <p><a class="btn btn-default" target="_new" href="http://yasgui.data2semantics.org">Try it out &raquo;</a> <a class="btn btn-info" target="_new" href="http://laurensrietveld.nl/yasgui/">More information &raquo;</a> <a class="btn btn-primary" href="https://github.com/LaurensRietveld/yasgui" target="_blank">GitHub&nbsp;<img style="height: 18px;" src="img/blacktocat.png"></a></p>
-        </div>
-      </div>
+<p>The complexity and abundance of data resources in an e-Science environment requires support for knowledge and metadata management: data is notoriously hard to share, find, access, interpret and reuse. This project targets <strong>scientific data publishers</strong> as primary facilitators of the e-Science process.</p>
 
-      <hr class="featurette-divider">
+<p>Scientists need <em>tools</em> to better understand the complexity characteristics of their data and its ability to answer scientific questions. They must be able to equip data with <em>meaning</em> and to generate a surrounding semantic <em>context</em> in which data can be meaningfully interpreted. Scientists must be given the means to make their data speak for itself, to move from data to semantics.</p>
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Virgil <span class="text-muted">Pharmacovigilance made easy!</span></h2>
-          <p class="lead">Virgil is a step-by-step wizard to compute disproportionality measurements for adverse events of drugs. It uses the open data from the <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/default.htm">FDA Adverse Event Reporting System (FAERS).</a></p>
-          <p class="lead">We also host a <strong>Linked Data</strong> version of the FAERS repository, called <a href="http://aers.data2semantics.org/">AERS-LD</a></p>
-          <p><a class="btn btn-default" target="_new" href="http://sealincmedia.project.cwi.nl/d2s/virgil">Try it out &raquo;</a> <a class="btn btn-info" target="_new" href="http://aers.data2semantics.org">AERS-LD &raquo;</a></p>
+<p>The <strong>targets</strong> of this project are to</p>
+
+<ol>
+    <li>increase the ease with which scientists can <em>share</em> their datasets with others,</li>
+    <li>increase the ease with which scientists can <em>access</em>,<em> analyse</em> and <em>interpret</em> datasets, and thereby</li>
+    <li>increase the <em>reuse</em> of such datasets.</li>
+</ol>
+
+<p>To meet these targets, this project will develop a <strong>semantic infrastructure</strong> for data publishers, with facilities for finding, generating, tracing and interpreting scientific knowledge. It requires fundamental research on data complexity, knowledge acquisition, knowledge systems and services, and the development of a powerful set of tools that provides support for individual steps in the e-Science lifecycle.</p>
+
+<p>We will collaborate closely with four COMMIT partner projects (<strong>P6</strong>, <strong>P12</strong>, <strong>P20</strong> and <strong>P26</strong>), and develop against four use case domains:</p>
+
+<ul>
+    <li>Data and publications of the <strong>COMMIT</strong> programme as a whole;</li>
+    <li>Publishing workflow of <strong>Elsevier</strong>, one of the largest scientific publishers worldwide;</li>
+    <li>Humanities research data provided by <strong>DANS</strong>, the Data Archiving and Networked Services division of the Royal Academy of Sciences in the Netherlands; and</li>
+    <li>Usage of Linked Data infrastructure by <strong><a class="zem_slink" title="Synerscope" href="http://www.synerscope.com" rel="homepage" target="_blank">Synerscope</a></strong> for large scale interactive and responsive visualisation of data.</li>
+</ul>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" style="vertical-align: middle;" src="img/virgil-screen.png">
+        <div class="col-lg-2">
+          <h2 class='page-header'>Partners</h2>
+          <div class="row"><img style="margin-top: 1em;" class='col-md-12' src="img/vu_logo.png"/></div>
+          <div class="row"><img style="margin-top: 1em;" class='col-md-12' src="img/uva_logo.png"/></div>
+          <div class="row"><img style="margin-top: 1em;" class='col-md-12' src="img/elsevier_logo.jpg"/></div>
+          <div class="row"><img style="margin-top: 1em;" class='col-md-12' src="img/dans_logo.png"/></div>
+          <div class="row"><img style="margin-top: 1em;" class='col-md-12' src="img/synerscope_logo.jpg"/></div>
+          <div class="row"><img style="margin-top: 1em;" class='col-md-12' src="img/leiden.jpeg"/></div>
+          <div class="row"><img style="margin-top: 1em;" class='col-md-12' src="img/logo-lumc.png"/></div>
+
         </div>
       </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
 		<div id="commit-bar">
 			<img style="float: left;" height="50px" src="img/logo-no-text-150dpi.png"/><a style="float: left;" href="http://www.commit-nl.nl"><img height="50px" src="img/COMMIT_logo_subtitle_small_RGB.png"></a>
 			<p>Data2Semantics is part of the <a href="http://www.commit-nl.nl">COMMIT/ consortium</a><br/>&copy; 2013 Rinke Hoekstra, Data2Semantics</p>
 		</div>
-        
+
       </footer>
 
     </div><!-- /.container -->
@@ -334,10 +333,10 @@
       $("a[href^='#']").on('click', function(e) {
           e.preventDefault();
           $('html, body').animate({ scrollTop: $(this.hash).offset().top }, 300);
-       
+
           // edit: Opera and IE requires the "html" elm. animated
       });
-      
+
     </script>
     <script type="text/javascript">
 
@@ -345,13 +344,13 @@
       _gaq.push(['_setAccount', 'UA-36060503-1']);
       _gaq.push(['_setDomainName', 'data2semantics.org']);
       _gaq.push(['_trackPageview']);
-    
+
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-    
+
     </script>
   </body>
 </html>

@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(http://fonts.googleapis.com/css?family=Anaheim);
 @import url(http://fonts.googleapis.com/css?family=Merienda+One);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 body {
   font:14px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -33,8 +34,8 @@ h1, h2, h3, h4, h5, h6 {
 h2 span.text-muted {
   font-size: 80%;
 }
-                         
-			 
+
+
 div.imgholder {
   height: 140px;
   vertical-align: middle;
@@ -56,4 +57,3 @@ h1.golden {
   font-weight: 400;
   font-size: 100px !important;
 }
-
